@@ -32,4 +32,4 @@ Lastly you need to set up the webhook.
 
 Replace the sections in this url (bot token & webhook), then call it and your bot should be set up.
 
-```https://api.telegram.org/bot<replace with bot api token>/setWebhook?url=<replace with our worker url>```
+```https://api.telegram.org/bot<bot token>/setWebhook?url=<worker url>```
