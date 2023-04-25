@@ -13,7 +13,9 @@ yarn install
 ```
 
 Add your bot token
-`echo 'BOT_TOKEN = "<bot token>"' >> .dev.vars`
+```
+echo 'BOT_TOKEN = "<bot token>"' >> .dev.vars
+```
 
 ## Development
 `yarn dev`
