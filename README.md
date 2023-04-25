@@ -5,13 +5,12 @@ This boilerplate can be used as a starting point to create a serverless telegram
 * either have `node` version **18.12.0** or have `nvm` installed so it can manage your version
 
 ## Installation
-`git clone git@github.com:realestninja/serverless-telegram-bot-boilerplate.git`
-
-`cd serverless-telegram-bot-boilerplate`
-
-`nvm use`
-
-`yarn install`
+```
+git clone git@github.com:realestninja/serverless-telegram-bot-boilerplate.git
+cd serverless-telegram-bot-boilerplate
+nvm use
+yarn install
+```
 
 Add your bot token
 `echo 'BOT_TOKEN = "<bot token>"' >> .dev.vars`
