@@ -1,5 +1,5 @@
 export default {
-	async fetch(request, env, ctx) {
+  async fetch(request, env, ctx) {
     const gatherResponse = async (response) => await response.json();
 
     const sendMessageToTelegramUser = async ({ token, chatId, text }) => {
@@ -19,5 +19,5 @@ export default {
       }
     }
     return new Response("hello world");
-	},
+  },
 };
